@@ -16,7 +16,7 @@ const FavoriteSongList = () => {
           </View>
         </View>
         <FlatList
-          data={DATA.favoriteSong}r
+          data={DATA.favoriteSong}
           keyExtractor={item => item.id}
           horizontal={true}
           showsHorizontalScrollIndicator={false}
